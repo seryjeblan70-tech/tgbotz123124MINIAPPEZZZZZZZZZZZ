@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from 'react';
 
 const tg = window.Telegram?.WebApp;
-const API_URL = 'http://mybatok.bothost.ru:8080'; // замени на свой адрес
+const API_URL = 'http://mybatok.bothost.ru'; // замени на свой адрес
 
 // Массив питомцев с условиями разблокировки
 const PETS = [
