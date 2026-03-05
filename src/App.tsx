@@ -191,7 +191,7 @@ function App() {
     if (tg) tg.sendData(JSON.stringify({ action, ...payload }));
   };
 
-  const handleClick = async (e: React.MouseEvent<HTMLDivElement>) => {
+  const handleClick = async () => {
     if (!user) return;
     if (user.stamina < 1) {
       alert('Нет сил! Подожди, энергия восстановится.');
